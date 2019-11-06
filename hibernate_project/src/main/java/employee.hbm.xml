@@ -5,7 +5,9 @@
 <hibernate-mapping  package="comlti.hib_ex.Hibernate_Proj">
 <class name="Employee"  table="employee">
      <id name="id" column="id">
-     <generator class="sequence"></generator>
+     <generator class="sequence">
+     <param name="sequence">hib_seq</param>
+     </generator>
      </id>
      <property name="empName"  column="empname"/>
      <property name="branch"/>
