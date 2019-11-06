@@ -25,7 +25,7 @@
       <property name = "hibernate.connection.password">
       123
       </property>
-      <property name = "hbm2ddl.auto">create</property>
+      <property name = "hbm2ddl.auto">update</property>
       
       <!-- List of XML mapping files -->
       <mapping resource = "com/lti/hibernateex/hibernate_project/employee.hbm.xml"/>
