@@ -28,7 +28,7 @@
       <property name = "hbm2ddl.auto">create/update</property>
       
       <!-- List of XML mapping files -->
-      <mapping resource = "com/lti/hib_ex/Hibernate_Proj/Employee.hbm.xml"/>
+      <mapping resource = "com/lti/hibernateex/hibernate_project/employee.hbm.xml"/>
       
    </session-factory>
 </hibernate-configuration>
